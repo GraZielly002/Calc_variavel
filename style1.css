@@ -16,17 +16,17 @@ h1{
     align-items: center;
     justify-content: space-around;
 }
-#camp1{
+#camp1, #camp2, #camp3{
     text-align: center;
     font-family: 'Chivo Mono', monospace;
 }
-.container{
+.container, .container2, .container3{
     height: 13vh;
     width: 25vh;
     background:#A5C9CA;
     border-radius: 15px;
 }
-#valor1{
+#valor1, #valor2, #valor3{
     height: 3vh;
     width: 15vh;
     margin-left: 4vh;
@@ -35,44 +35,6 @@ h1{
     border: none;
     font-family: 'Chivo Mono', monospace;
     
-}
-#camp2{
-    text-align: center;
-    font-family: 'Chivo Mono', monospace;
-}
-.container2{
-    height: 13vh;
-    width: 25vh;
-    background:#A5C9CA;
-    border-radius: 15px;
-}
-#valor2{
-    height: 3vh;
-    width: 15vh;
-    margin-left: 4vh;
-    padding-left: 15px;
-    border-radius: 9px;
-    border: none;
-    font-family: 'Chivo Mono', monospace;
-}
-#camp3{
-    text-align: center;
-    font-family: 'Chivo Mono', monospace;
-}
-.container3{
-    height: 13vh;
-    width: 25vh;
-    background:#A5C9CA;
-    border-radius: 15px;
-}
-#valor3{
-    height: 3vh;
-    width: 15vh;
-    margin-left: 4vh;
-    padding-left: 15px;
-    border-radius: 9px;
-    border: none;
-    font-family: 'Chivo Mono', monospace;
 }
 #butao{
     height: 10vh;
@@ -91,4 +53,81 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body{
+        background-color:#395B64;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Chivo Mono', monospace; 
+    }
+    .tittle-flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start center;
+        margin-top: 1.5em;
+        margin-bottom: -7em;
+    }
+
+    .container-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container2, .container3{
+        margin-top: 3em;
+    }
+
+    .bnt-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: 0.05em;
+        margin-top: -5em;
+    }
+
+    #butao{
+        height: 8vh;
+        width: 20vh;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+        color: aliceblue;
+        background-color: #2C3333;
+        font-family: 'Chivo Mono', monospace;
+    }
+
+    .container, .container2, .container3{
+        height: 10vh;
+        width: 23vh;
+        background:#A5C9CA;
+        border-radius: 15px;
+    }
+
+    #camp1, #camp2, #camp3{
+        text-align: center;
+        font-family: 'Chivo Mono', monospace;
+        margin-top: 0.3rem;
+    }
+
+    #valor1, #valor2, #valor3{
+        height: 3vh;
+        width: 15vh;
+        margin-left: 3vh;
+        margin-top: -2em;
+        border-radius: 9px;
+        border: none;
+        font-family: 'Chivo Mono', monospace;
+        
+    }
+
 }
