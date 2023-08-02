@@ -21,7 +21,7 @@ h1{
     font-family: 'Chivo Mono', monospace;
 }
 .container, .container2, .container3{
-    height: 13vh;
+    height: 14vh;
     width: 25vh;
     background:#A5C9CA;
     border-radius: 15px;
@@ -107,7 +107,7 @@ h1{
     }
 
     .container, .container2, .container3{
-        height: 10vh;
+        height: 11vh;
         width: 23vh;
         background:#A5C9CA;
         border-radius: 15px;
